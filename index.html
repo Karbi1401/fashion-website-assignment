@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>K&K | Home</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/images/favicon_io/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./node_modules/scrollreveal/dist/scrollreveal.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark fixed-top p-md-4 nav-masthead-light"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="index.html">K&K</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown dropdown-custom-red">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Fashion
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item link-white" href="fashion.html"
+                      >What's Trending?</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="men.html">Men</a></li>
+                  <li><a class="dropdown-item" href="women.html">Women</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tips-and-tricks.html"
+                  >Tips and Tricks</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="health.html">Health</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="references.html">References</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="video-background position-relative">
+        <div class="video-wrap">
+          <div id="video">
+            <video id="bg-vid" autoplay loop muted playsinline>
+              <source src="./assets/videos/video-background.mp4" type="" />
+            </video>
+          </div>
+        </div>
+        <div
+          class="w-100 vh-100 d-flex justify-content-center align-items-center position-absolute animation-bottom"
+        >
+          <div class="container text-light">
+            <p class="lead fs-4">TRENDY COLLECTIONS</p>
+            <h1 class="display-1 fw-bold text-custom-red">
+              DRESSED TO BE NOTICED
+            </h1>
+            <blockquote class="blockquote fs-4">
+              <p>
+                Fashion is part of the daily air and it changes <br />
+                all the time, with all the events.
+              </p>
+            </blockquote>
+            <a
+              type="button"
+              class="btn btn-custom-red text-light"
+              href="fashion.html"
+            >
+              <i class="bi bi-play-fill"></i>
+              <span class="ms-2">What's Trending?</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="container px-4 py-5" id="custom-cards">
+          <h2 class="pb-2 text-custom-red fw-bold animation-left">Features</h2>
+
+          <div
+            class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"
+          >
+            <div class="col-lg-12">
+              <div
+                class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg featured-item-1 animation-top"
+              >
+                <div
+                  class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                >
+                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-light">
+                    Fashion
+                  </h2>
+                  <p class="lead text-light">
+                    What's new? New trend in both men and women clothing.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div
+                class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg featured-item-2 animation-left"
+              >
+                <div
+                  class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                >
+                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-light">
+                    Tips and Tricks
+                  </h2>
+                  <p class="lead text-light">
+                    How and what to wear for different occasions and events.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div
+                class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg featured-item-3 animation-right"
+              >
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-light">
+                    Health
+                  </h2>
+                  <p class="lead text-light">
+                    Different things to do to maintain your health, beauty and
+                    matching your personality to styles.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="bg-custom-red mb-3">
+          <div class="container col-xxl-12 px-4 py-5">
+            <div
+              class="row d-flex justify-content-center flex-lg-row-reverse align-items-center g-5 py-5"
+            >
+              <div class="col-10 col-sm-8 col-lg-6 animation-right">
+                <img
+                  src="./assets/images/featurette-1.png"
+                  class="d-block mx-auto img-fluid rounded"
+                  alt=""
+                  width="500"
+                  loading="lazy"
+                />
+              </div>
+              <div class="col-lg-6 animation-left">
+                <h2 class="fw-bold lh-2 mb-3 text-light">Fashion</h2>
+                <p class="lead text-light">
+                  Every rising trend on the Spring/Summer 2022 men's runways
+                  appears to have been put in place to get you out of the
+                  lengthy, never-ending winter. Airy silhouettes, dramatic
+                  cut-outs, and a casual aesthetic are just three of the
+                  season's keywords.
+                </p>
+                <p class="lead text-light">
+                  Creative directors and stylists returned to exhibit their
+                  designs for the Spring/Summer 2022 season. The women's fashion
+                  collections displayed throughout the fashion weeks have
+                  established the new trends for the upcoming hot season, with
+                  fresh proposals, excellent returns, and surprising feminine
+                  trends. Fashion companies have updated wardrobe basics, while
+                  certain labels have maintained their fascination in graphics
+                  and floral motifs. Fringes and corsets have also made a
+                  comeback, and shapes are becoming more architectural,
+                  resembling sculptural forms.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="mb-3">
+          <div class="container col-xxl-12 px-4 py-5">
+            <div
+              class="row d-flex justify-content-center flex-lg-row align-items-center g-5 py-5"
+            >
+              <div class="col-10 col-sm-8 col-lg-6 animation-left">
+                <img
+                  src="./assets/images/featurette-2.png"
+                  class="d-block mx-auto img-fluid rounded"
+                  alt=""
+                  width="500"
+                  loading="lazy"
+                />
+              </div>
+              <div class="col-lg-6 animation-right">
+                <h2 class="fw-bold lh-2 mb-3">Tips and Tricks</h2>
+                <p class="lead">
+                  What are weddings, baptisms, networking gatherings, funerals,
+                  job interviews, picnics, holiday parties, baby and bridal
+                  showers all about? It's always difficult to decide what to
+                  wear to them. What you dress to any of these events is
+                  determined by a variety of circumstances, including the
+                  location, the formality of the invitation, the weather, and,
+                  in many cases, what everyone else is planning to wear.
+                  However, there are certain broad sartorial norms to which you
+                  might refer for help. (Remember, most dress code "laws" are
+                  more like guidelines—with a few exceptions, such as not
+                  wearing white to a wedding.)
+                </p>
+
+                <p class="lead">
+                  Real Simple fashion editors and experts break down and
+                  interpret every potential event dress code, including
+                  practical recommendations, etiquette solutions, and outfit
+                  choices, to put an end to the what-do-I-wear conundrum once
+                  and for all.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="bg-custom-red mb-3">
+          <div class="container col-xxl-12 px-4 py-5">
+            <div
+              class="row d-flex justify-content-center flex-lg-row-reverse align-items-center g-5 py-5"
+            >
+              <div class="col-10 col-sm-8 col-lg-6 animation-right">
+                <img
+                  src="./assets/images/featurette-3.png"
+                  class="d-block mx-auto img-fluid rounded"
+                  alt=""
+                  width="500"
+                  loading="lazy"
+                />
+              </div>
+              <div class="col-lg-6 animation-left">
+                <h2 class="fw-bold lh-2 mb-3 text-light">Health</h2>
+                <p class="lead text-light">
+                  Don't have time to devote to thorough skin care? You may still
+                  treat yourself by mastering the fundamentals. Good skin care
+                  and a healthy lifestyle can help to postpone natural aging and
+                  avoid a variety of skin disorders. Begin with these five
+                  no-nonsense suggestions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="container col-6 px-4 my-5 text-center">
+      <img
+        class="img-fluid"
+        src="./assets/images/K&K - transparent.png"
+        alt=""
+        width="200"
+      />
+      <h3 class="text-custom-red fw-bold">Subscribe to our newsletter</h3>
+      <p>Monthly digest of whats new and exciting from us.</p>
+      <form>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Email address" />
+        </div>
+        <button class="btn btn-custom-red" type="button">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="container border-top">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="index.html" class="mb-3 me-2 mb-md-0 lh-1">
+            <img
+              src="./assets/images/K&K - transparent.png"
+              alt="logo"
+              width="90"
+              height="90"
+            />
+          </a>
+          <span class="text-muted"
+            >&copy; 2022 K&K, Inc. All rights reserved.</span
+          >
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-muted fs-4" href="#"
+              ><i class="bi bi-twitter"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted fs-4" href="#"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted fs-4" href="#"
+              ><i class="bi bi-facebook"></i
+            ></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/animation.js"></script>
+    <script src="./assets/js/transparent-navbar.js"></script>
+  </body>
+</html>

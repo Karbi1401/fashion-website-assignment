@@ -1,0 +1,360 @@
+.carousel-item {
+  height: 35rem;
+  position: relative;
+}
+
+.carousel-item > .container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 40px;
+}
+
+.slide-1-dustcoats {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647960620-1647879698-00037-fendi-mens-ss22-milan-credit-brand.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 10%;
+}
+
+.slide-2-dustcoats {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647960615-1647879693-hermes-1.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 8%;
+}
+
+.slide-1-jumpsuits {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647960844-1647880807-00026-sacai-menswear-spring-2022.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 20%;
+}
+
+.slide-2-jumpsuits {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647960850-1647880813-00001-ermenegildo-zegna-mens-ss22-credit-brand.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 10%;
+}
+
+.slide-1-easysuiting {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647960904-1647880964-g-armani-72.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 10%;
+}
+
+.slide-2-easysuiting {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647960909-1647880985-00014-lemaire-mens-spring-2022-paris-credit-lena-emery.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 10%;
+}
+
+.slide-1-vividcolors {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647960939-1647881607-00008-alexander-mcqueen-mens-ss22-credit-brand.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+.slide-2-vividcolors {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647960947-1638285107-1638202352-louis-vuitton-menswear-spring-22-runway.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-1-cutouts {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647961013-1647882633-00007-fendi-mens-ss22-milan-credit-brand.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+.slide-2-cutouts {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647961018-1647882640-00001-rick-owens-mens-ss22.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-1-embracingfeminity {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647961025-1647882945-00020-comme-des-garcons-homme-plus-spring-22-credit-brand.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-2-embracingfeminity {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647961030-1647882953-00034-loewe-menswear-spring-22-credit-david-sims.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-1-legs {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647961145-1647894231-00003-dsquared2-spring-2022-menswear-credit-brand.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 30%;
+}
+
+.slide-2-legs {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647961150-1647894237-00028-ludovic-de-saint-sernin-mens-spring-22-credit-gorunway.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-1-knit {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647961234-1647894658-00027-jil-sander-menswear-spring-22-credit-brand.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-2-knit {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647961243-1647894672-dolce.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-1-prints {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647961361-1647895448-00011-lanvin-mens-ss22-credit-brand.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-2-prints {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647961366-1647895456-00025-dries-van-noten-menswear-spring-22-credit-sofie-middernacht-and-maarten-alexander.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-1-blackandwhite {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647961530-1647896963-00033-saint-laurent-mens-ss22-venice-credit-brand.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-2-blackandwhite {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647961536-1647896984-00027-off-white-mens-spring-22-credit-brand.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-1-skin {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647961601-1647897683-hermes-29.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-2-skin {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647961606-1647897717-00012-stefan-cooke-mens-ss22-london-credit-gorunway.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-1-league {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647961694-1647898248-00006-missoni-milan-menswear-spring-2022.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-2-league {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1647961700-1647898267-00015-amiri-mens-ss22.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-1-corsets {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634052715-spring-summer-2022-fashion-trends-2.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-2-corsets {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634053409-spring-summer-2022-fashion-trends-21.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-1-flowers {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634052729-spring-summer-2022-fashion-trends-3.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-2-flowers {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634053816-spring-summer-2022-fashion-trends-31.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-1-drippin {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634052789-spring-summer-2022-fashion-trends-4.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-2-drippin {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634052797-spring-summer-2022-fashion-trends-5.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-1-morphesuit {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634052920-spring-summer-2022-fashion-trends-16.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-2-morphesuit {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634052928-spring-summer-2022-fashion-trends-17.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-1-bling {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634053233-spring-summer-2022-fashion-trends-20.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-2-bling {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634054225-spring-summer-2022-fashion-trends-42.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-1-sculptural {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634055337-spring-summer-2022-fashion-trends-55.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-2-sculptural {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634055404-spring-summer-2022-fashion-trends-56.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-1-hood {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634055416-spring-summer-2022-fashion-trends-64.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-2-hood {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634055455-spring-summer-2022-fashion-trends-65.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-1-short {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634055543-spring-summer-2022-fashion-trends-71.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-2-short {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634055466-spring-summer-2022-fashion-trends-74.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-1-knitwear {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634055455-spring-summer-2022-fashion-trends-80.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-2-knitwear {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634055466-spring-summer-2022-fashion-trends-81.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position-y: 5%;
+}
+
+.slide-1-fringe {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634055174-spring-summer-2022-fashion-trends-89.png);
+  background-size: cover;
+  background-repeat: no repeat;
+}
+
+.slide-2-fringe {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/images/1634055188-spring-summer-2022-fashion-trends-90.png);
+  background-size: cover;
+  background-repeat: no repeat;
+}

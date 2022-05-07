@@ -1,0 +1,116 @@
+// Configuration
+@import "../../node_modules/bootstrap/scss/functions";
+
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
+
+@import "../theme/colors";
+
+@import url("https://fonts.googleapis.com/css2?family=Orelega+One&display=swap");
+
+.navbar-brand {
+  font-family: "Orelega One", cursive;
+  font-size: 2rem !important;
+  color: $custom-red !important;
+  border-bottom: 0.1rem solid transparent;
+
+  &:hover {
+    border-bottom: 0.1rem solid $custom-red;
+  }
+}
+
+.navbar-nav > li {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-masthead-dark {
+  .navbar-brand {
+    font-family: "Orelega One", cursive;
+    font-size: 2rem !important;
+    color: $custom-red !important;
+    border-bottom: 0.1rem solid transparent;
+
+    &:hover {
+      border-bottom: 0.1rem solid $custom-red;
+    }
+  }
+  .nav-link {
+    color: $dark !important;
+    background-color: transparent;
+    border-bottom: 0.1rem solid transparent;
+    &:hover,
+    &:focus {
+      color: $custom-red !important;
+      border-bottom-color: $custom-red !important;
+    }
+  }
+  .active {
+    color: $custom-red !important;
+    border-bottom-color: $custom-red;
+  }
+}
+
+.nav-masthead-light {
+  .nav-link {
+    color: $light !important;
+    background-color: transparent;
+    border-bottom: 0.1rem solid transparent;
+    &:hover,
+    &:focus {
+      color: $custom-red !important;
+      border-bottom-color: $custom-red;
+    }
+  }
+  .active {
+    color: $custom-red !important;
+    border-bottom-color: $custom-red;
+  }
+}
+
+.nav-masthead {
+  .navbar-brand {
+    font-family: "Orelega One", cursive;
+    font-size: 2rem !important;
+    color: $custom-red !important;
+    border-bottom: 0.1rem solid transparent;
+
+    &:hover {
+      border-bottom: 0.1rem solid $custom-red;
+    }
+  }
+  .nav-link {
+    color: $dark !important;
+    background-color: transparent;
+    border-bottom: 0.1rem solid transparent;
+    &:hover,
+    &:focus {
+      color: $custom-red !important;
+      border-bottom-color: $custom-red;
+    }
+  }
+  .active {
+    color: $custom-red !important;
+    border-bottom-color: $custom-red;
+  }
+}
+
+.dropdown-item > a:focus {
+  background-color: $custom-red;
+}
+
+.dropdown-custom-red > .dropdown-menu {
+  background-color: $light;
+  & > li > a {
+    &:hover {
+      color: $light;
+      background-image: none;
+      background-color: $custom-red;
+    }
+  }
+  .active {
+    color: $light !important;
+    background-color: $custom-red;
+  }
+}

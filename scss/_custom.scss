@@ -1,0 +1,8 @@
+@use "./theme/colors" as *;
+@use "./components/navbar";
+@use "./components/video-background";
+@use "./components/features-card";
+@use "./components/banner-img-fashion";
+@use "./components/fashion";
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
